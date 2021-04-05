@@ -1,0 +1,10 @@
+Package: ptmOmics
+Type: Package
+Title: Post-translational modifications add-on for pOmics
+Version: 0.1.0
+Author: Nico Huettmann
+Maintainer: Nico Huettmann <huttmann.nico@gmail.com>
+Description: Adds functions specific for PTM analysis to pOmics
+License: MIT
+Encoding: UTF-8
+LazyData: true
