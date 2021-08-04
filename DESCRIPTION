@@ -8,3 +8,6 @@ Description: Adds functions specific for PTM analysis to pOmics
 License: MIT
 Encoding: UTF-8
 LazyData: true
+Imports:
+    rlist
+RoxygenNote: 7.1.1
