@@ -1,4 +1,4 @@
-#' Subsets a given fasta file by given protein vector and exports simplified fasta file for GPS 5.0 PTM site prediction
+#' Subsets a given fasta file by given proteins for GPS 5.0 PTM site prediction
 #'
 #' @param proteins vector of proteins to export
 #' @param fasta.file path to fasta file containing all sequences
@@ -32,7 +32,7 @@ export_GPS_fasta <- function(proteins, fasta.file,
                     FUN = function(x) strsplit_(x, "\\|")[2], USE.NAMES = F)
 
   # Subset fasta file
-  fasta.export <- fasta[match(pProteins, proteome)]
+  fasta.export <- fasta[match(proteins, entries)]
 
 
   # Test found proteins
@@ -63,7 +63,8 @@ export_GPS_fasta <- function(proteins, fasta.file,
             return(invisible(TRUE))
   # Error
   } else {
-    message("Something went wrong. Please check fasta file, proteins or output directory.")
+    message(paste0("Something went wrong. Please check fasta file, ",
+                   "proteins or output directory."))
     return(invisible(TRUE))
   }
 

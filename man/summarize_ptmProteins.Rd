@@ -19,7 +19,25 @@ summarize_ptmProteins(
 )
 }
 \arguments{
-\item{min.localization.prob}{}
+\item{proteinGroups}{proteinGroups}
+
+\item{modificationSpecificPeptides}{modificationSpecificPeptides}
+
+\item{sites}{sites}
+
+\item{observations}{observations}
+
+\item{replicates}{observations data for biological replicates etc.}
+
+\item{replicates.min}{min fraction to be considered identified}
+
+\item{group.by}{observatrions data to groups by}
+
+\item{modification}{name of modification site dataset}
+
+\item{modification.abbr}{abbreviation to use for modification (e.g. 'p')}
+
+\item{min.localization.prob}{localization probability threshold (e.g. 0.75)}
 }
 \value{
 

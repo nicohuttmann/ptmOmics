@@ -2,16 +2,18 @@
 % Please edit documentation in R/do_GPS_analysis.R
 \name{do_GPS_analysis}
 \alias{do_GPS_analysis}
-\title{Title}
+\title{Combines GPS prediction with given set of pSites}
 \usage{
-do_GPS_analysis(pSites, name)
+do_GPS_analysis(pSites, name = "table")
 }
 \arguments{
-\item{name}{}
+\item{pSites}{vector of phosphorylation sites}
+
+\item{name}{if of GPS results in databases}
 }
 \value{
 
 }
 \description{
-Title
+Combines GPS prediction with given set of pSites
 }

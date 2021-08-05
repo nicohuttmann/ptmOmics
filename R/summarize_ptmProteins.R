@@ -1,15 +1,15 @@
 #' Summarize modified peptides and modification sites per proteinGroup
 #'
-#' @param proteinGroups
-#' @param modificationSpecificPeptides
-#' @param sites
-#' @param observations
-#' @param group.by
-#' @param replicates
-#' @param replicates.min
-#' @param modification
-#' @param modification.abbr
-#' @param min.localization.prob
+#' @param proteinGroups proteinGroups
+#' @param modificationSpecificPeptides modificationSpecificPeptides
+#' @param sites sites
+#' @param observations observations
+#' @param group.by observatrions data to groups by
+#' @param replicates observations data for biological replicates etc.
+#' @param replicates.min min fraction to be considered identified
+#' @param modification name of modification site dataset
+#' @param modification.abbr abbreviation to use for modification (e.g. 'p')
+#' @param min.localization.prob localization probability threshold (e.g. 0.75)
 #'
 #' @return
 #' @export

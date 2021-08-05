@@ -2,7 +2,7 @@
 % Please edit documentation in R/export_GPS_fasta.R
 \name{export_GPS_fasta}
 \alias{export_GPS_fasta}
-\title{Subsets a given fasta file by given protein vector and exports simplified fasta file for GPS 5.0 PTM site prediction}
+\title{Subsets a given fasta file by given proteins for GPS 5.0 PTM site prediction}
 \usage{
 export_GPS_fasta(proteins, fasta.file, output.dir = "Data/GPS")
 }
@@ -17,5 +17,5 @@ export_GPS_fasta(proteins, fasta.file, output.dir = "Data/GPS")
 
 }
 \description{
-Subsets a given fasta file by given protein vector and exports simplified fasta file for GPS 5.0 PTM site prediction
+Subsets a given fasta file by given proteins for GPS 5.0 PTM site prediction
 }
