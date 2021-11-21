@@ -21,7 +21,7 @@ import_KinHub_kinase_list <- function(
   }
 
   else {
-    names(kinase_table) <- keep_first(names(kinase_table), sep = "\n")
+    names(kinase_table) <- keep_first(names(kinase_table), split = "\n")
     add_database(database = kinase_table,
                  id = "Kinases",
                  type = "KinHub")

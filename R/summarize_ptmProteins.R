@@ -92,11 +92,11 @@ summarize_ptmProteins <- function(proteinGroups,
          collapse_rows(FUN = any, by = group.by)
          else .} %>%
     # Transpose data frame and add proteinGroups information to sum peptides
-    transpose_data() %>%
+    do_transpose() %>%
     include_variables_data(which = "Protein.Groups",
                            dataset = "modificationSpecificPeptides") %>%
     collapse_rows(FUN = sum, by = "Protein.Groups") %>%
-    do_something(dplyr::rename, id = observations)
+    do_fun(dplyr::rename, id = observations)
 
 
 
@@ -136,11 +136,11 @@ summarize_ptmProteins <- function(proteinGroups,
          collapse_rows(FUN = any, by = group.by)
          else .} %>%
     # Transpose data frame and add proteinGroups information to sum mod sites
-    transpose_data() %>%
+    do_transpose() %>%
     include_variables_data(which = "Protein.group.IDs",
                            dataset = sites_dataset) %>%
     collapse_rows(FUN = sum, by = "Protein.group.IDs") %>%
-    do_something(dplyr::rename, id = observations)
+    do_fun(dplyr::rename, id = observations)
 
 
   # Combine dataframes
