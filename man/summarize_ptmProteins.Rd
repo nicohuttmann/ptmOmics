@@ -39,9 +39,6 @@ summarize_ptmProteins(
 
 \item{min.localization.prob}{localization probability threshold (e.g. 0.75)}
 }
-\value{
-
-}
 \description{
 Summarize modified peptides and modification sites per proteinGroup
 }

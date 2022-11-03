@@ -9,9 +9,6 @@ extract_pSites(x)
 \arguments{
 \item{x}{data frame from PhosphoSitePlus}
 }
-\value{
-
-}
 \description{
 Extract phosphosite in standard format from PhospoSitePlus data frame
 }

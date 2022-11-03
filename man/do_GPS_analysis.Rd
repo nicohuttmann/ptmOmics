@@ -11,9 +11,6 @@ do_GPS_analysis(pSites, name = "table")
 
 \item{name}{if of GPS results in databases}
 }
-\value{
-
-}
 \description{
 Combines GPS prediction with given set of pSites
 }

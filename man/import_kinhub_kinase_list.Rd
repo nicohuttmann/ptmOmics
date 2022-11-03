@@ -9,9 +9,6 @@ import_KinHub_kinase_list(url = "http://www.kinhub.org/kinases.html")
 \arguments{
 \item{url}{url of KinHub kinase table}
 }
-\value{
-
-}
 \description{
 Imports list of kinases from kinhub
 }

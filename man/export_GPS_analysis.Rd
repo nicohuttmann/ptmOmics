@@ -11,9 +11,6 @@ export_GPS_analysis(tables.list, output.dir)
 
 \item{output.dir}{}
 }
-\value{
-
-}
 \description{
 Combines and exports GPS analysis tables
 }

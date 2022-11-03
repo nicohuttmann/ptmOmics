@@ -11,9 +11,6 @@ import_GPS_results(file, name = "table")
 
 \item{name}{(optional) identifier for imported data}
 }
-\value{
-
-}
 \description{
 Imports GPS 5.0 results file
 }

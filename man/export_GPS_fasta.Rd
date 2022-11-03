@@ -13,9 +13,6 @@ export_GPS_fasta(proteins, fasta.file, output.dir = "Data/GPS")
 
 \item{output.dir}{path to folder where fasta file should be saved}
 }
-\value{
-
-}
 \description{
 Subsets a given fasta file by given proteins for GPS 5.0 PTM site prediction
 }
